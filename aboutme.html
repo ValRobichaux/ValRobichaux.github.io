@@ -4,9 +4,16 @@
     <link rel="stylesheet" href="./aboutme.css" />
     <link rel="stylesheet" href="./style.css"/>
     
-    <title>About me page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="scripts.js"></script>
     
-    <div class="topnav">
+    <title>Val Robichaux : About me page</title>
+
+
+    <div id = "sideNavbar" class = "sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a class ="active" href ="https://valrobichaux.com/">Home</a>
       <a href = "https://github.com/ValRobichaux">Github</a>
       <a href = "https://valrobichaux.com/aboutme">About me</a>
@@ -14,6 +21,9 @@
       <a href = "https://valrobichaux.com/Services">Services</a>
       <a href = "https://valrobichaux.com/Qualifications">Qualifications</a>
     </div>
+
+    <span onclick="openNav()" class="w3-btn w3-black w3-xlarge"><i class="w3-margin-center glyphicon glyphicon-menu-hamburger"></i></span>
+
     
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   </head>
@@ -25,7 +35,7 @@
     <header>
       <h1 style="text-decoration: underline">About myself</h1>
       <img
-        src="Professional Pic.jpg"
+        src="Professional_Headshot.JPG"
         alt="Pic of me!"
         style="display: block; margin-bottom: 10px"
         align="right"
