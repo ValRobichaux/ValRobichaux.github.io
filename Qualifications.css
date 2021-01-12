@@ -3,6 +3,7 @@ section {
     padding: 10px;
     border: 5px solid black;
     margin: 0px;
+    margin-left: 40px;
     background: white;
     color: black;
 }
@@ -27,5 +28,5 @@ form {
 }
 
 button {
-    background-color:#111;
+    padding-bottom:0px;
 }
